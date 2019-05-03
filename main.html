@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uppgift 2</title>
+	<link rel="stylesheet" type="text/css" href="farg.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		
+	</script>
+</head>
+<body>
+	<h1 id="title">blankett</h1>
+
+	<p id="description">Skriv in typ namn email ålder </p>
+
+	
+	<form id="survey-form">
+		<label id="name-label" for="name">Name</label>
+		<input id="name" type="text" name="fullName" placeholder="name" required><br><br>
+		<label id="email-label" for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="email" required><br><br>
+		<label id="number-label" for="age">Age</label>
+		<input type="number" name="quantity" id="number" placeholder="Age"
+		min="1" max="109"><br><br>
+
+		
+		<div id="beskrivning">
+			<p>Vilken mobilTelefon vill du ha?</p>
+		</div>
+
+		<div>
+			<select id="dropdown" name="dropMenu">
+				<option value="">Var god välj ett alternativ</option>
+				<option value="Samsung">Samsung 1</option>
+				<option value="Iphone">Iphone X</option>
+				<option value="Nokia">Nokia</option>
+				<option value="Huawei">Huawei</option>
+			</select>	
+		</div>
+		
+		<div id="beskrivning">
+			<p>Radio knappar: för vilken man vill... </p>
+		</div>
+
+		<ul id="lista">
+			<li><label>
+				<input type="radio" value="1" name="radio-buttons">10 Armhävningar
+			</label></li>
+			
+			<li>
+			<label>
+				<input type="radio" value="2" name="radio-buttons">12 Armhävningar
+			</label>
+			</li>
+			
+			<li>	
+			<!-- <label> -->
+				<input type="radio" value="3" name="radio-buttons">14 Armhävningar
+			<!-- </label> -->
+			</li>
+		</ul>
+		
+		<div id="beskrivning-3">
+			<p>välj en eller flera sådana goodaa </p>
+		</div>
+
+		<ul id="LISTA-checkbox">
+			<li><input type="checkbox" value="1" name="check">té</li>
+			
+			<li><input type="checkbox" value="2" name="check">kaffe	</li>
+			
+			<li><input type="checkbox" value="3" name="check">bullar</li>
+			
+			<li><input type="checkbox" value="4" name="check">tavla</li>
+			
+			<li><input type="checkbox" value="5" name="check">dyrklipp</li>
+			7
+			<li><input type="checkbox" value="6" name="check">passante</li>
+			
+			<li><input type="checkbox" value="7" name="check">enchanté</li>
+			
+			<li><input type="checkbox" value="8" name="check">weed</li>
+		</ul>
+
+		<div id="beskrivning-4">
+			<p>Vad tänkte du på?</p>
+		</div>
+
+		<textarea placeholder="Skriv vad du tänker på tack..."></textarea>
+		<br>
+		<button id="submit">Enter</button>
+
+	</form>
+
+
+
+</body>
+</html>
